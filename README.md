@@ -1,11 +1,13 @@
 # Functional Rubik's Solver
 
+![Now in technicolor.](https://raw.githubusercontent.com/benjamindkilleen/functional-rubiks-solver/master/images/cube.png)
+
 A shell-based Rubik's cube solver written in Haskell, providing instructions for the White Cross
 algorithm. It uses a state Monad. This is possibly useful for educational purposes but probably not
 for [actually solving a Rubik's cube](https://openai.com/blog/solving-rubiks-cube/) (which I don't
 actually know how to do).
 
-# Installation
+## Installation
 
 After installing Haskell (e.g. from [here](https://www.haskell.org/platform/)), install dependencies:
 ```bash
@@ -19,7 +21,7 @@ repository and build from source:
 ghc -o solver *.hs
 ```
 
-# Usage
+## Usage
 
 To start the solver, run
 
@@ -31,5 +33,10 @@ The solver will ask whether the user wants to solve a random cube, which is less
 entering in the location of all the squares, but much faster. The instructions will be given in
 standard cube notation, color-coded:
 
+![Some assembly required.](https://raw.githubusercontent.com/benjamindkilleen/functional-rubiks-solver/master/images/instructions.png)
 
+## About
 
+I wrote this solver for fun after thoroughly enjoying [Stuart
+Kurtz](https://computerscience.uchicago.edu/people/profile/stuart-kurtz/)'s intro to computer
+science. Feel free to modify if at all useful.

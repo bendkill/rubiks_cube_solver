@@ -4,7 +4,7 @@
 
 A shell-based Rubik's cube solver written in Haskell, providing instructions for the White Cross
 algorithm. It uses a state Monad. This is possibly useful for educational purposes but probably not
-for [actually solving a Rubik's cube](https://openai.com/blog/solving-rubiks-cube/) (which I don't
+for [actually solving a Rubik's cube](https://arxiv.org/abs/1910.07113) (which I don't
 actually know how to do).
 
 ## Installation
